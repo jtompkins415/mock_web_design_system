@@ -1,0 +1,244 @@
+/* Google Fonts declarations: 
+Josefin Sans - font-family: 'Josefin Sans', sans-serif;
+Prompt - font-family: 'Prompt', sans-serif;
+Gelogica - font-family: 'Geologica', sans-serif;
+*/
+
+body {
+    background-color: #F7FFF7;
+}
+
+/* Header styles */
+
+header {
+    margin: 2em auto;
+}
+
+header h1 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: .4em;
+    color: #063137;
+    font-size: 40px;
+    font-family: 'Geologica', sans-serif;
+}
+
+/* Container class styles */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #063137;
+    margin: 10px auto;
+    padding: 10px;
+    width: 800px;
+}
+
+.container h2 {
+    margin-top: 30px;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Geologica', sans-serif;
+    color: #063137;
+    letter-spacing: .2em;
+}
+
+/* Color Conatiner Styles */
+
+.color-row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.color {
+    display: inline-block;
+    margin: 50px;
+    font-family: 'Geologica', sans-serif;
+}
+
+#green {
+    background-color: #27A581;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color:#F7FFF7;
+}
+
+#violet {
+    background-color: #493548;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color:#F7FFF7;
+}
+
+#yellow {
+    background-color: #F7CB15;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #063137;
+}
+
+#tomato {
+    background-color: #F55536;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color:#063137;
+}
+
+#pink {
+    background-color: #E08DAC;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #063137;
+}
+
+#blue {
+    background-color: #2D7DD2;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    border-radius: 50%;
+    text-align: center;
+    color: #F7FFF7;
+}
+
+/* Font Family styles: Josefin Sans */
+
+#josefin-sans {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#josefin-sans h3 {
+    font-size: 28px;
+    letter-spacing: .1em;
+}
+
+#josefin-sans p.normal-font {
+    font-weight: 400;
+    font-size: 20px;
+}
+#josefin-sans p.bold-font {
+    font-weight: 600;
+    font-size: 20px;
+}
+#josefin-sans p.italics-font {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+}
+#josefin-sans p.underline-font {
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/* Font Family styles: Prompt */
+
+#font-prompt {
+    font-family: 'Prompt', sans-serif;
+}
+
+#font-prompt h3 {
+    font-size: 28px;
+    letter-spacing: .1em;
+}
+
+#font-prompt p.normal-font {
+    font-weight: 400;
+    font-size: 20px;
+}
+#font-prompt p.bold-font {
+    font-weight: 600;
+    font-size: 20px;
+}
+#font-prompt p.italics-font {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 20px;
+}
+#font-prompt p.underline-font {
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+/* Text Styles styles */
+
+.text-style h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.text-style h1.main-heading {
+    font-size: 40px;
+    letter-spacing: .4em;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-style h1.sub-heading {
+    font-size: 32px;
+    letter-spacing: .2em;
+    font-weight: 600;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.text-style h1.paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Prompt', sans-serif;
+}
+
+.text-style h1.caption {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+.style-descript {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Geologica', sans-serif;
+    
+}
+
+.style-descript li {
+    list-style: none;
+    position: relative;
+    padding-left: 1.5em;
+    text-align: center;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 20px auto;
+    font-family: 'Geologica', sans-serif;
+    text-align: center;
+}
+
